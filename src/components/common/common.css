@@ -1,0 +1,9 @@
+.link {
+  display: flex;
+  background-color: rgb(214, 210, 210);
+  padding: 20px;
+  border: 1px solid rgb(224, 235, 224);
+  justify-content: space-around;
+  margin: 10px;
+  border-radius: 8px;
+}

@@ -1,5 +1,5 @@
 const Header = () => {
-  return <div>Header</div>;
+  return <div>My Smart Home</div>;
 };
 
 export default Header;
