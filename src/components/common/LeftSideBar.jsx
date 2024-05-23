@@ -27,12 +27,17 @@ const items = [
 
 const LeftSidebar = () => {
   return (
-    <div>
+    <div className="nav">
       {items?.map((item) => (
         <Link className="link" to={`/${item.key}`}>
           {item?.label}{" "}
         </Link>
       ))}
+      <div className="bottom-text">
+        <p className="footer">
+          All Rights Reserved © {new Date().getFullYear()}{" "}
+        </p>
+      </div>
     </div>
   );
 };
