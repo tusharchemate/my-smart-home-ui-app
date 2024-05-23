@@ -11,6 +11,7 @@ import Register from "../auth/Register";
 import { useEffect, useState } from "react";
 import LeftSidebar from "../common/LeftSideBar";
 import Products from "../products";
+import Consultation from "../consultation";
 
 const MainContainer = () => {
   const [isLoggedIn, setIsLoggedIn] = useState(true); // Set to true for testing
@@ -31,9 +32,7 @@ const MainContainer = () => {
   return (
     <Router>
       <div className="container">
-        <header>
-          <h1>My Smart Home</h1>
-        </header>
+        <Header />
         <div className="body">
           <div className="sidebar">
             <LeftSidebar />
@@ -43,7 +42,7 @@ const MainContainer = () => {
               {/*Dynamically render route based on selectedRoute */}
               <Route path="/" element={<Home />} />
               <Route path="/products" element={<Products />} />
-              <Route path="/register" element={<Register />} />
+              <Route path="/consultation" element={<Consultation />} />
               <Route path="*" element={<Navigate to="/" />} />
             </Routes>
           </div>

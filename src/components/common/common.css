@@ -1,9 +1,17 @@
 .link {
   display: flex;
-  background-color: rgb(214, 210, 210);
   padding: 20px;
-  border: 1px solid rgb(224, 235, 224);
   justify-content: space-around;
   margin: 10px;
   border-radius: 8px;
+  box-shadow: rgba(17, 17, 26, 0.1) 0px 0px 16px;
+}
+
+.header {
+  height: 60px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 40px;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 50px;
 }

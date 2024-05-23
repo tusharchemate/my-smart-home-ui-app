@@ -12,12 +12,12 @@ header {
 .body {
   display: flex;
   flex-direction: row;
-  height: calc(100vh - 85px);
+  height: calc(100vh - 65px);
 }
 .sidebar {
-  background-color: #f0f0f0;
   padding: 20px;
   width: 265px;
+  box-shadow: rgba(0, 0, 0, 0.09) 0px 3px 12px;
 }
 
 .content {
