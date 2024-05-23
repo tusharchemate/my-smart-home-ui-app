@@ -1,0 +1,27 @@
+.products-container {
+  padding: 20px;
+  overflow: auto;
+}
+
+.product-list {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.product-card {
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 20px;
+  width: 200px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.product-card h3 {
+  margin: 0 0 10px 0;
+}
+
+.product-card .price {
+  color: #007bff;
+  font-weight: bold;
+}

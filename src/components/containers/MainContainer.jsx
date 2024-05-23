@@ -10,6 +10,7 @@ import Login from "../auth/Login";
 import Register from "../auth/Register";
 import { useEffect, useState } from "react";
 import LeftSidebar from "../common/LeftSideBar";
+import Products from "../products";
 
 const MainContainer = () => {
   const [isLoggedIn, setIsLoggedIn] = useState(true); // Set to true for testing
@@ -41,7 +42,7 @@ const MainContainer = () => {
             <Routes>
               {/*Dynamically render route based on selectedRoute */}
               <Route path="/" element={<Home />} />
-              <Route path="/products" element={<Header />} />
+              <Route path="/products" element={<Products />} />
               <Route path="/register" element={<Register />} />
               <Route path="*" element={<Navigate to="/" />} />
             </Routes>
