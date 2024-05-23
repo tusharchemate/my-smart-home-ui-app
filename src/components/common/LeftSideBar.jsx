@@ -23,6 +23,12 @@ const items = [
     label: "Consultation",
     icon: <SettingOutlined />,
   },
+
+  {
+    key: "requests",
+    label: "My Requests",
+    icon: <SettingOutlined />,
+  },
 ];
 
 const LeftSidebar = () => {

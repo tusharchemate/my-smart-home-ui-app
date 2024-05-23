@@ -1,0 +1,26 @@
+.requests-container {
+  padding: 20px;
+  overflow: auto;
+}
+
+.request-list {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.request-card {
+  border-radius: 8px;
+  padding: 20px;
+  width: 320px;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+}
+
+.request-card h3 {
+  margin: 0 0 10px 0;
+}
+
+.request-card .price {
+  color: #007bff;
+  font-weight: bold;
+}

@@ -12,6 +12,7 @@ import { useEffect, useState } from "react";
 import LeftSidebar from "../common/LeftSideBar";
 import Products from "../products";
 import Consultation from "../consultation";
+import Requests from "../requests";
 
 const MainContainer = () => {
   const [isLoggedIn, setIsLoggedIn] = useState(true); // Set to true for testing
@@ -43,6 +44,8 @@ const MainContainer = () => {
               <Route path="/" element={<Home />} />
               <Route path="/products" element={<Products />} />
               <Route path="/consultation" element={<Consultation />} />
+              <Route path="/requests" element={<Requests />} />
+
               <Route path="*" element={<Navigate to="/" />} />
             </Routes>
           </div>
